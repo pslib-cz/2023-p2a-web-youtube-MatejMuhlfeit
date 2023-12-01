@@ -40,6 +40,9 @@
 .profile {
     display: flex;
     flex-wrap: nowrap;
+    gap: 10px;
+
+
 
 }
 .profile__text {
