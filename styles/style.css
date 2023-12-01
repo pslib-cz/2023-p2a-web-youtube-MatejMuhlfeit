@@ -2,7 +2,9 @@
 
 .main {
    gap: 1em;
-display: flex;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .ytv {
@@ -15,7 +17,8 @@ display: flex;
     
 }
 .ytv__right {
-    
+    display: flex;   
+    justify-content: flex-end;
 }
 .profile {
     
@@ -31,5 +34,7 @@ display: flex;
 }
 
 .footer {
-
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: nowrap;
 }
