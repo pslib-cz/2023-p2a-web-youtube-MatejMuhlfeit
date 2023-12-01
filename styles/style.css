@@ -2,6 +2,7 @@
 
 .main {
    gap: 1em;
+display: flex;
 }
 
 .ytv {
@@ -27,4 +28,8 @@
 }
 .btn--flex {
     
+}
+
+.footer {
+
 }
