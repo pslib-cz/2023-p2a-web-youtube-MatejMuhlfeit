@@ -4,24 +4,41 @@
    gap: 1em;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: center;   
 }
 
 .ytv {
-    
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    flex-grow: 1;
 }
 .ytv__bottom {
-    
+   display: flex;
+   row-gap: 20px;
+   flex-wrap: wrap;
 }
+
 .ytv__left {
-    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+   
 }
 .ytv__right {
-    display: flex;   
-    justify-content: flex-end;
+   display: flex;
+   gap: 10px;
+   justify-content: flex-end;
+   flex-wrap: nowrap;
+   flex-grow: 1;
+   justify-self: flex-end;
 }
 .profile {
-    
+    display: flex;
+    flex-wrap: nowrap;
+
 }
 .profile__text {
     
@@ -30,11 +47,7 @@
 
 }
 .btn--flex {
-    
-}
-
-.footer {
    display: flex;
-   justify-content: flex-start;
    flex-wrap: nowrap;
 }
+
